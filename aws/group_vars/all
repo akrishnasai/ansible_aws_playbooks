@@ -2,16 +2,16 @@
 # Variables here are applicable to all host groups
 
 httpd_port: 80
-ntpserver: 192.168.1.2
+#ntpserver: 192.168.1.2
 
 # AWS specific variables
-ec2_access_key: Access Key
-ec2_secret_key: secret Key
-ec2_region: us-east-1
-ec2_zone:
-ec2_image: ami-bc8131d4
-ec2_instance_type: m1.small
-ec2_keypair: rnsansibleKey
+ec2_access_key: AKIAJUKV4GW5AOTPIYFA
+ec2_secret_key: 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
+ec2_region: us-east-2
+ec2_zone: us-east-2c
+ec2_image: ami-03291866
+ec2_instance_type: t2.micro
+ec2_keypair: sai
 ec2_security_group: default
 ec2_instance_count: 2
 ec2_tag: demo
